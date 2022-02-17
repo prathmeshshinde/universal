@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url(Banner.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0;
+  padding: 40px 0px 0px 100px;
+  color: white;
+  font-size: 44px;
+}
+
+/*------------------------- main ------------------------*/
+
+.section-main {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+/*------------------------- main ------------------------*/
+
+.section-sky {
+  flex: 2.5;
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.73)),
+    url(Sky.jpg);
+  background-size: cover;
+  background-position: 70%;
+  background-repeat: no-repeat;
+  margin: 20px 0px 20px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skydive {
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+}
+
+.sky-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0px 0px 10px 0px;
+}
+
+/*------------------------- Scuba ------------------------*/
+
+.section-scuba-bungee {
+  flex: 7.5;
+  width: 0px;
+}
+
+.scuba img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  object-position: 0px 50%;
+  margin: 0px 0px -5px 0px;
+  border-radius: 10px 0px 0px 10px;
+  color: #d0dbe7;
+}
+
+.scuba {
+  display: flex;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 50px 0px 10px;
+}
+
+.hour {
+  display: flex;
+  margin: 5px;
+  border-bottom: 1px solid #d0dbe7;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.goa {
+  display: flex;
+  padding: 0px 0px 10px 0px;
+}
+
+.goa p {
+  margin: 0px 10px 0px 10px;
+  color: #8c8c8c;
+}
+
+.activity {
+  display: flex;
+  border-bottom: 1px solid #d0dbe7;
+  width: auto;
+  padding: 0px 0px 5px 0px;
+}
+
+.dos {
+  background-color: #f0f0f0;
+  margin: 5px;
+  width: 85px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid #d0dbe7;
+}
+
+.option {
+  display: flex;
+  margin: 10px 0px 0px 10px;
+}
+
+.option p {
+  font-size: 12px;
+  margin: 0px 10px 0px 0px;
+  border: 2px solid #8c8c8c;
+  padding: 4px 20px;
+  border-radius: 50px;
+}
+
+.section-explore {
+  padding-left: 10px;
+  border-right: 2px solid #d0dbe7;
+  width: 550px;
+}
+
+.details {
+  text-align: center;
+  width: 250px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 5px 0px;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 10px;
+  background-color: gold;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0px 0px 0px 10px;
+}
+
+.review {
+  font-size: 16px;
+  margin: 0px 10px 0px 10px;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px solid #d0dbe7;
+}
+
+.start {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 10px;
+  color: #ff0000;
+}
+
+.sec-view {
+  display: flex;
+  justify-content: center;
+}
+
+.view {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #218838;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+/*------------------------- Bungee ------------------------*/
+.bungee {
+  display: flex;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.bungee img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin: 0px 0px -5px 0px;
+  border-radius: 10px 0px 0px 10px;
+  color: #d0dbe7;
+}
+
+/*------------------------- Mobile ------------------------*/
+
+@media screen and (max-width: 1000px) {
+  .banner {
+    background-image: url(Banner.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    margin-top: 0;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  /*------------------------- main ------------------------*/
+
+  .section-main {
+    margin: 0px;
+    display: block;
+  }
+
+  /*------------------------- Sky ------------------------*/
+  .section-sky {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.73)
+      ),
+      url(Sky.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    margin: 0px;
+  }
+
+  .skydive {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+  }
+
+  .sky-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0px 0px 10px 0px;
+  }
+
+  /*------------------------- Scuba ------------------------*/
+
+  .section-scuba-bungee {
+    width: auto;
+  }
+
+  .section-explore {
+    width: auto;
+    border: none;
+  }
+
+  .scuba img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border-radius: 10px 10px 0px 0px;
+    color: #d0dbe7;
+  }
+
+  .scuba {
+    display: block;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .bungee {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    width: auto;
+  }
+
+  .hour {
+    margin: -100px 0px 0px 0px;
+    position: absolute;
+    width: auto;
+    border: none;
+  }
+
+  .goa p {
+    margin: 0px 10px 60px 10px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .activity {
+    padding: 0px 0px 0px 0px;
+    border: none;
+    width: auto;
+  }
+
+  .dos {
+    background-color: #f0f0f0;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #d0dbe7;
+  }
+
+  .activity p {
+    font-size: 10px;
+  }
+
+  .option {
+    margin-bottom: 10px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .option p {
+    font-size: 12px;
+    border: 2px solid #8c8c8c;
+    padding: 4px 20px;
+    border-radius: 50px;
+  }
+
+  .details {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0px;
+    width: auto;
+    border-top: 2px solid #d0dbe7;
+    padding: 10px;
+  }
+
+  .end {
+    text-align: start;
+  }
+
+  .from {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: end;
+  }
+
+  .star {
+    display: flex;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .rating {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 10px;
+    background-color: gold;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .review {
+    font-size: 16px;
+    margin: 0px 10px 0px 10px;
+    padding: 5px 0px 5px 0px;
+    border: none;
+  }
+
+  .start {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px;
+  }
+
+  .price {
+    font-size: 32px;
+    font-weight: 700;
+    margin: -10px 0px 0px 10px;
+    padding: 0px;
+    color: #ff0000;
+  }
+
+  .sec-view {
+    display: block;
+    text-align: center;
+  }
+
+  .view {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #218838;
+    padding: 5px 20px;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  .bungee img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border-radius: 10px 10px 0px 0px;
+    color: #d0dbe7;
+  }
+}
